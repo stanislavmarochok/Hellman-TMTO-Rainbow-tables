@@ -22,7 +22,7 @@ def get_chains():
             chains.append([start_point, end_point])
             all_chains.append([start_point, all_hashes])
         chains = sort_chains(chains)
-        # save_chains_to_csv(chains)
+        save_chains_to_csv(chains)
     print('Mining chains finished.')
     return all_chains, chains
 
@@ -179,7 +179,7 @@ def run():
 m = 100
 t = 100
 pin_length = 6
-rainbow = True
+rainbow = False
 ais_id = '93800'
 
 filename = 'chains_' + ('rainbow_' if rainbow else 'hellman_') + str(m) + '_' + str(t) + '.csv'
