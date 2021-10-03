@@ -177,9 +177,9 @@ def run():
 
 
 m = 100
-t = 100
+t = 10000
 pin_length = 6
-rainbow = False
+rainbow = True
 ais_id = '93800'
 
 filename = 'chains_' + ('rainbow_' if rainbow else 'hellman_') + str(m) + '_' + str(t) + '.csv'

@@ -1,4 +1,4 @@
 Successful searches: 0/1000
 Success percent: 0.0
 Expectation (success probability): 0.8
-Average time of searching: 0.00029563164710998536
+Average time of searching: 0.0003087606430053711
